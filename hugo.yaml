@@ -2,7 +2,6 @@ baseURL: https://c4p1t4n.github.io/bc4p1t4n/
 languageCode: en-us pt-br
 title: Léo Oliveira
 theme: "PaperMod"
-
 author:
   name: Léo Oliveira
   profile: ""
@@ -36,13 +35,14 @@ languages:
       ShowReadingTime: true  
       taxonomies:
         tag: tags
+        feed: true
     menu:
       main:
         - name: posts
-          url: /posts
+          url: $BASE_URL/posts
           weight: 8
         - name: search
-          url: /search
+          url: $BASE_URL/search
           weight: 16
         - name: tags
           url: tags/
