@@ -1,5 +1,5 @@
 ---
-title: "Escolhendo um modelo de classificação SVM x KNN"
+title: "Escolhendo um modelo de classificação SVM x KNN fashion mnist dataset"
 date: 2024-06-18T11:30:03+00:00
 tags: ["machine_learning", "KNN", "SVM"]
 description: "description"
@@ -19,6 +19,7 @@ cover:
     alt: ""
     relative: true
 ---
+
 # Hello
 
 
@@ -27,7 +28,7 @@ cover:
 O dataset fashion mnist e um dataset de imagens em escala 28x28 em tons cinza.
 
 O dataset possui 785 colunas 28x28=784, portanto das 785 colunas , 784 são as representações de pixels da imagem a coluna que sobra é o label que representa aquela imagem
-
+<!--more-->
 ### Categorias de imagens
 
 | Classe | Label |
