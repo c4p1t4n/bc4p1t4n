@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag2 on Léo Oliveira</title>
+    <link>http://localhost:1313/tags/tag2/</link>
+    <description>Recent content in Tag2 on Léo Oliveira</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us pt-br</language>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Important post</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>Hello sobre o dataset fashion mnist O dataset fashion mnist e um dataset de imagens em escala 28x28 em tons cinza.
+O dataset possui 785 colunas 28*28=784, portanto das 785 colunas , 784 são as representações de pixels da imagem a coluna que sobra é o label que representa aquela imagem
+Categorias de imagens Classe Label Camiseta/Top 0 Calça 1 Suéter 2 Vestido 3 Colete 4 Sandália 5 Camisa 6 Tênis 7 bolsa 8 Botas 9 Exemplos de imagens:</description>
+    </item>
+  </channel>
+</rss>

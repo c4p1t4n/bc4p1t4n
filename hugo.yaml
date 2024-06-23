@@ -1,0 +1,103 @@
+baseURL: https://example.org/
+languageCode: en-us pt-br
+title: Léo Oliveira
+theme: "PaperMod"
+
+author:
+  name: Léo Oliveira
+  profile: ""
+defaultContentLanguage: pt-BR
+defaultContentLanguageInSubdir: true
+languages:
+  pt-BR:
+    contentDir: content/br
+    languageName: Portugues
+    languageCode: pt-BR
+    weight: 1
+    params:
+      profileMode:
+        enabled: true
+        title: "Léo Oliveira" # optional default will be site title
+        subtitle: "Engenheiro de dados"
+        imageUrl: "https://avatars.githubusercontent.com/u/64155993?v=4" # optional
+        imageTitle: "O autor no evento AWS summit" # optional
+        imageWidth: 320 # custom size
+        imageHeight: 320 # custom size
+        buttons:
+          - name: Archive
+            url: "/posts"
+          - name: Github
+            url: "https://github.com/c4p1t4n"
+      showTags: true
+      defaultTheme: auto  # defaultTheme: light or  dark
+      disableThemeToggle: false
+      DateFormat: "January 2, 2006"
+      ShowShareButtons: true
+      ShowReadingTime: true  
+    menu:
+      main:
+        - name: posts
+          url: /posts
+          weight: 8
+        - name: search
+          url: /search
+          weight: 16
+        - name: tags
+          url: tags/
+          weight: 24
+          
+  en:
+    contentDir: content/en
+    languageName: "English"
+    weight: 2
+    params:
+      profileMode:
+        fuseOpts:
+          isCaseSensitive: false
+          shouldSort: true
+          location: 10
+          distance: 1000
+          threshold: 0.4
+          minMatchCharLength: 0
+          # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+          keys: ["title", "permalink", "summary", "content"]
+        enabled: true
+        title: "Léo Oliveira" # optional default will be site title
+        subtitle: "Data engineer"
+        imageUrl: "https://avatars.githubusercontent.com/u/64155993?v=4" # optional
+        imageTitle: "The author in a AWS summit" # optional
+        imageWidth: 320 # custom size
+        imageHeight: 320 # custom size
+        buttons:
+          - name: Archive
+            url: "/archive"
+          - name: Github
+            url: "https://github.com/c4p1t4n"
+    menu:
+      main:
+        - name: posts
+          url: /posts
+          weight: 8
+        - name: search
+          url: /search
+          weight: 16
+        - name: tags
+          url: tags/
+          weight: 24
+params:
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/leoigornunes"
+    - name: linkedin
+      url: "https://linkedin.com/in/leoigornunes/"
+    - name: github
+      url: "https://github.com/c4p1t4n"
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
