@@ -34,6 +34,8 @@ languages:
       DateFormat: "January 2, 2006"
       ShowShareButtons: true
       ShowReadingTime: true  
+      taxonomies:
+        tag: tags
     menu:
       main:
         - name: posts
@@ -73,6 +75,8 @@ languages:
             url: "/archive"
           - name: Github
             url: "https://github.com/c4p1t4n"
+    taxonomies:
+      tag: tags
     menu:
       main:
         - name: posts
@@ -93,8 +97,6 @@ params:
     - name: github
       url: "https://github.com/c4p1t4n"
 
-taxonomies:
-  tag: tags
 
 outputs:
   home:

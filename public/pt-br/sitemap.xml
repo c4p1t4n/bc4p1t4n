@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/pt-br/posts/hello/</loc>
+    <lastmod>2024-06-18T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/pt-br/tags/knn/</loc>
     <lastmod>2024-06-18T11:30:03+00:00</lastmod>
   </url><url>
@@ -21,21 +24,8 @@
     <loc>http://localhost:1313/pt-br/tags/machine_learning/</loc>
     <lastmod>2024-06-18T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/posts/hello/</loc>
-    <lastmod>2024-06-18T11:30:03+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/pt-br/posts/</loc>
     <lastmod>2024-06-18T11:30:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="http://localhost:1313/pt-br/posts/"
-                />
   </url><url>
     <loc>http://localhost:1313/pt-br/tags/svm/</loc>
     <lastmod>2024-06-18T11:30:03+00:00</lastmod>
@@ -52,6 +42,8 @@
                 hreflang="pt-BR"
                 href="http://localhost:1313/pt-br/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/pt-br/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/pt-br/search/</loc>
     <xhtml:link

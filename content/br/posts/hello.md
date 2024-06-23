@@ -3,7 +3,6 @@ title: "Escolhendo um modelo de classificação SVM x KNN"
 date: 2024-06-18T11:30:03+00:00
 tags: ["machine_learning", "KNN", "SVM"]
 description: "description"
-weight:
 slug: ""
 draft: false 
 comments: true
@@ -15,7 +14,7 @@ hidemeta: true
 disableShare: false 
 showbreadcrumbs: true 
 cover:
-    image: "![alt text](image.png)" 
+    image: "pt-br/images/proxy-image.jpeg"
     caption: "" 
     alt: ""
     relative: true
