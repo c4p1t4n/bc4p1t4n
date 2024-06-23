@@ -39,10 +39,10 @@ languages:
     menu:
       main:
         - name: posts
-          url: $BASE_URL/posts
+          url: /posts
           weight: 8
         - name: search
-          url: $BASE_URL/search
+          url: /search
           weight: 16
         - name: tags
           url: tags/
